@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
   color: #5a5a5a;
 }
 
@@ -92,6 +91,18 @@ body {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+.about-footer,
+.support-footer {
+  margin-top: 40px;
+}
+
+.footer {
+  background-color: #eee;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
   /* Remove the edge padding needed for mobile */
   .marketing {
